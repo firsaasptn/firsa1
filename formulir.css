@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.judul{
+  text-align: center;
+  background: #ADD8E6;
+}
+
+
+@media (max-widht: 600px){
+  .container{
+   grid-template-columns: 1fr;
+    }
+  }
+  
+  footer {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
